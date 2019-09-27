@@ -25,13 +25,25 @@
   display: inline-block;
   text-align: center;
   width: 3em;
-  font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-size: 3em;
+  box-shadow: 0 4px 8px 0 #4f4949;
   margin: 1em;
   user-select: none;
+  color: #eea29a;
+  background: #deeaee;
  }
 
 .activeCard {
-  color: red;
-  background: pink;
+  color: #ffffff;
+  background: #c94c4c;
  }
+
+ body{
+  background :url(https://i.imgur.com/NwcOR6b.png) ;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
