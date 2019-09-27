@@ -16,7 +16,7 @@ class App extends Component {
     {
     <WordCard value="hanoi"/>
     }
-    <button id="newgame" className="button" onClick={this.newgame} >New Game</button>
+    <button id="newgame" className="button" onClick={this.newgame} class="buttons">New Game</button>
   </div>
  );
  }
